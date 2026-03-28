@@ -13,20 +13,20 @@ jenkins → CI/CD
 kubernetes → deployment  
 scripts → automation  
 
-## Workflow
-1. Create infrastructure using Terraform  
-2. Build Docker image  
-3. Push code to GitHub  
-4. Jenkins runs pipeline  
-5. Deploy application  
+## 🔄 Workflow
+1. Terraform provisions AWS infrastructure
+2. Docker builds application image
+3. Code pushed to GitHub
+4. Jenkins triggers CI/CD pipeline
+5. Application deployed on AWS
 
 ## Architecture
 - Load Balancer (ALB)
 - EC2 Instances
 - RDS Database
 
-## Result
-- Automated deployment
-- High availability
-- Scalable infrastructure
+## 📊 Result
+- Automated deployment process
+- Improved scalability
+- Reduced manual effort
 
