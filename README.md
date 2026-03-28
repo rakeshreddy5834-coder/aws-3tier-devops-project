@@ -20,5 +20,13 @@ scripts → automation
 4. Jenkins runs pipeline  
 5. Deploy application  
 
-## Outcome
-Reduced manual work and improved deployment speed
+## Architecture
+- Load Balancer (ALB)
+- EC2 Instances
+- RDS Database
+
+## Result
+- Automated deployment
+- High availability
+- Scalable infrastructure
+
