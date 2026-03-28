@@ -1,0 +1,5 @@
+🔹 EC2 Screenshot 
+Open AWS Console
+Go to EC2 → Instances
+Start any instance (or even stopped is ok)
+Take screenshot (Windows: Win + Shift + S)
