@@ -1,68 +1,24 @@
-# aws-3tier-devops-project
-Three-tier architecture deployment using AWS, Terraform, Docker, and Jenkins# 🚀 AWS 3-Tier Architecture DevOps Project
+# AWS 3-Tier DevOps Project
 
-## 📌 Overview
-This project demonstrates the deployment of a scalable and highly available 3-tier architecture on AWS using modern DevOps practices and tools. It automates infrastructure provisioning, application deployment, and ensures high availability.
+## Overview
+This project shows how to deploy a 3-tier application on AWS using DevOps tools.
 
----
+## Tools Used
+AWS, Terraform, Docker, Jenkins, Kubernetes
 
-## 🏗️ Architecture
-The application is divided into three layers:
+## Project Structure
+terraform → infrastructure  
+docker → container  
+jenkins → CI/CD  
+kubernetes → deployment  
+scripts → automation  
 
-- **Presentation Layer:** Application Load Balancer (ALB)
-- **Application Layer:** EC2 instances running Dockerized application
-- **Database Layer:** Amazon RDS
+## Workflow
+1. Create infrastructure using Terraform  
+2. Build Docker image  
+3. Push code to GitHub  
+4. Jenkins runs pipeline  
+5. Deploy application  
 
----
-
-## 🛠️ Tools & Technologies
-- AWS (EC2, VPC, ALB, RDS, Route 53)
-- Terraform (Infrastructure as Code)
-- Docker (Containerization)
-- Jenkins (CI/CD Pipeline)
-- Kubernetes (Orchestration)
-- Git & GitHub
-
----
-
-## 📂 Project Structure
-aws-3tier-devops-project/
-├── terraform/
-├── docker/
-├── jenkins/
-├── kubernetes/
-├── scripts/
-├── screenshots/
-└── README.md
-
----
-
-## ⚙️ Features
-- Automated infrastructure provisioning using Terraform  
-- Continuous Integration & Deployment using Jenkins  
-- Containerized application using Docker  
-- Scalable deployment using Kubernetes  
-- High availability with Load Balancer and Auto Scaling  
-
----
-
-## 🚀 Deployment Steps
-1. Provision infrastructure using Terraform  
-2. Build Docker image for the application  
-3. Push code to GitHub repository  
-4. Configure Jenkins pipeline  
-5. Deploy application on AWS EC2 / Kubernetes  
-
----
-
----
-
-## 📌 Outcome
-- Reduced manual deployment effort  
-- Improved system scalability and reliability  
-- Implemented real-world DevOps practices  
-
----
-
-## 👨‍💻 Author
-**Rakesh Reddy**
+## Outcome
+Reduced manual work and improved deployment speed
