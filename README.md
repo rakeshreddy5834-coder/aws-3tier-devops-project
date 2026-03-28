@@ -30,3 +30,7 @@ scripts → automation
 - Improved scalability
 - Reduced manual effort
 
+  ## 📌 Future Improvements
+- Add monitoring using Prometheus & Grafana
+- Implement Kubernetes auto-scaling
+
